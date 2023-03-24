@@ -8,7 +8,7 @@ import { Server } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: ['https://cuongha12.github.io/chat'],
+    origin: ['http://192.168.1.12:3000'],
     methods: ['GET', 'POST'],
   },
 })
